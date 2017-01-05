@@ -35,21 +35,50 @@ body {
 }
 
 .teaching {
-  display: block;
-}
-.teaching li {
-  list-style-type: none;
-}
-.teaching img {
-  height: 300px;
-  width: 300px;
+  margin-left: inherit;
+  background-color: #d4e6f1;
+  font-size: 24px;
+  font-weight: 200px;
+  padding-top: 5px;
+  padding-bottom: 40px;
 }
 
+.koreaoverlay {
+   background: url(img/koreaflag.png) no-repeat;
+
+
 }
+
+.japanoverlay {
+   background: url(img/japanflag.png) no-repeat;
+
+ }
+
+ .koreaoverlay, .japanoverlay {
+   width: 400px;
+   height: 250px;
+   opacity: 0.9;
+   border: 5px solid black;
+   padding: 5px;
+   font-size: 25px;
+   font-weight; 500;
+   text-align: center;
+   display: inline-block;
+   background-size: contain;
+   background-color: white;
+   margin: 10px;
+ }
+
+.koreatext, .japantext {
+  opacity: 0;
+}
+
+.koreaoverlay:hover .koreatext, .japanoverlay:hover .japantext {
+   opacity: 0.9;
+ }
 
 .contact {
   display: block;
-  background-color: #d4e6f1;
   font-size: 22px;
   text-align: right;
 }
