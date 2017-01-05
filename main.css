@@ -45,35 +45,32 @@ body {
 
 .koreaoverlay {
    background: url(img/koreaflag.png) no-repeat;
-
-
 }
-
 .japanoverlay {
    background: url(img/japanflag.png) no-repeat;
-
  }
+ .vietnamoverlay {
+    background: url(img/vietnamflag.png) no-repeat;
+  }
 
- .koreaoverlay, .japanoverlay {
-   width: 400px;
-   height: 250px;
+ .koreaoverlay, .japanoverlay, .vietnamoverlay {
+   width: 420px;
+   height: 260px;
    opacity: 0.9;
-   border: 5px solid black;
    padding: 5px;
    font-size: 25px;
    font-weight; 500;
    text-align: center;
    display: inline-block;
    background-size: contain;
-   background-color: white;
    margin: 10px;
  }
 
-.koreatext, .japantext {
+.koreatext, .japantext, .vietnamtext {
   opacity: 0;
 }
 
-.koreaoverlay:hover .koreatext, .japanoverlay:hover .japantext {
+.koreaoverlay:hover .koreatext, .japanoverlay:hover .japantext, .vietnamoverlay:hover .vietnamtext {
    opacity: 0.9;
  }
 
