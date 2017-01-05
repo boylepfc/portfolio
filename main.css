@@ -34,7 +34,21 @@ body {
   font-weight: 200px;
 }
 
+.teaching {
+  display: block;
+}
+.teaching li {
+  list-style-type: none;
+}
+.teaching img {
+  height: 300px;
+  width: 300px;
+}
+
+}
+
 .contact {
+  display: block;
   background-color: #d4e6f1;
   font-size: 22px;
   text-align: right;
